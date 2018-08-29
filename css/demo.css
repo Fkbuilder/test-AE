@@ -1,0 +1,84 @@
+.paralasic {
+	background:
+	linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+	url(../img/photo.jpg);
+	
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: 100vw;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+h1{padding: 350px 100px; 
+	text-align: center;
+	font-size: 80px;
+	color: #e65100;
+}
+#text1{
+	  font-size:     72px;
+  line-height:   1.5;
+  color: #FAFAD2;
+  font-weight:   100;
+  text-align: center;
+}
+img.big-img{
+    max-width: 100%;    
+    
+    }
+
+
+p.introdoce{
+	font-size: 16px;
+	color: #cecece;
+	text-align: center;
+	font-style: italic
+}
+
+#title{
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-color: #1f1f1f;
+}
+#menu{
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			color: #fafad2
+		}
+		#menu li{
+			text-decoration: none;
+			list-style: none;
+			display: inline;
+			margin-left: 25px;			
+            margin-right: 25px;
+
+		}
+		#menu li a{
+			color:#fafad2;
+			text-decoration: none;
+			margin:0px;
+			height:40px; 
+			line-height:40px; 
+			text-align:center;
+		}
+
+#menu h3{
+	font-size: 50px;
+	color: #fafad2
+}
+footer {
+	background-color: #2f2f2f;
+	margin-top: 20;
+	padding: 40px 20px;
+}
+.text3{
+	text-align: center;
+	font-size: 24px;
+	color:white;
+}

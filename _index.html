@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Itou  Kaiji</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="css/demo.css" rel="stylesheet">
+      <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+  </head>
+
+  <body>
+  
+  <header id="first" class="paralasic" data-paralasic="0.5">
+    <h1>Itou  Kaiji</h1>
+  </header>
+  <p class="introdoce">
+  	Kaiji Itou is the main protagonist of the Gambling Apocalypse Kaiji.
+  </p>
+
+
+
+
+  <h2 id="title">About Kaiji</h2>
+<div  id="text1">
+    	<p class="wow animated bounceInUp">He is very poor！</p>
+    	<p class="wow animated bounceInUp">he has a Gambling addiction！</p>
+    	<p class="wow animated bounceInUp">He lost three fingers and only has one ear！</p>
+</div>
+	<script src="js/jquery-latest.min.js"></script>
+	<script async type="text/javascript" src="js/paraLasic.1.1.js"></script>
+    <script src="js/wow.js"></script>
+    
+
+
+
+
+    <div class="wow animated bounceInUp" >
+    	<img class="big-img " src="img/timg.jpg">
+    	<p class="introdoce"> Itou  Kaiji in aniamte</p>
+    </div>
+    
+ 
+
+
+    <div id="menu" class="wow aniamte bounceInUp">
+    	<h3>Itou  Kaiji enemy</h3>
+    	<ul>
+   	<li><a href="http://kaiji.wikia.com/wiki/Yukio_Tonegawa" target="_blank" title="visit Yukio_Tonegawa's website">Yukio Tonegawa</a></li>
+   	<li><a href="http://kaiji.wikia.com/wiki/Kazutaka_Hyodo" target="_blank" title="visit Kazutaka_Hyodo's website">Kazutaka Hyōdō</a></li>
+   	<li><a href="http://kaiji.wikia.com/wiki/Takashi_Muraoka" target="_blank" title="visit Takashi_Muraoka's website">Takashi Muraoka</a></li>
+   </ul>
+    </div>
+
+
+
+
+    <footer >
+    	<p class="text3">make by steven</p>
+    </footer>
+
+    
+
+
+
+
+
+      <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+  </body>
+</html>
